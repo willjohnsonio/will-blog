@@ -2,3 +2,5 @@ node_modules
 public
 .cache
 yarn-error.log
+# Local Netlify folder
+.netlify
