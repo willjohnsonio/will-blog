@@ -5,7 +5,7 @@ title: 'this post is a ghost'
 description: 'this post has all of the right fields'
 categories: ['test']
 keywords: ['test']
-banner: '../text/banner.jpg'
+banner: '../text/banner.png'
 published: false
 redirects:
   - '/invisible-post-423123'
