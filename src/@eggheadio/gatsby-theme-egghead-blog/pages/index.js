@@ -36,7 +36,7 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          I am the league of shadows!
+          Sharing What I Learn
         </h1>
       </Container>
       <div
