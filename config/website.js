@@ -21,9 +21,9 @@ module.exports = {
     backgroundColor: '#2b2e3c',
   
     // Social component
-    twitterUrl: 'https://twitter.com/willjohnsonio/',
-    twitterHandle: '@willjohnsonio',
-    githubUrl: 'https://github.com/wjohnson85/',
-    githubHandle: 'wjohnson85',
+    twitterUrl: 'https://github.com/wjohnson85/',
+    twitterHandle: 'wjohnson85',
+    githubUrl: 'https://twitter.com/willjohnsonio/',
+    githubHandle: 'willjohnsonio',
     fbAppID: '',
   }
