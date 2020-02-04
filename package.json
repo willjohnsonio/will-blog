@@ -5,11 +5,12 @@
   "license": "MIT",
   "dependencies": {
     "@eggheadio/gatsby-theme-egghead-blog": "^2.0.1",
-    "gatsby": "^2.18.4",
+    "gatsby": "^2.19.12",
     "gatsby-plugin-manifest": "^2.2.30",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "scripts": {"build": "gatsby build" }
-
+  "scripts": {
+    "build": "gatsby build"
+  }
 }
