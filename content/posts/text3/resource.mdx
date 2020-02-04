@@ -1,3 +1,4 @@
+
 ---
 slug: models-in-rails
 date: 2020-01-30
@@ -22,7 +23,7 @@ The `generate` command you typed makes a mirgration file inside of the `db/migra
 
 ### db/migrate/[timestamp]_create_users.rb
 
-```rb
+```ruby
 class CreateUsers < ActiveRecord::Migration[6.0]
   def change
     create_table :users do |t|
@@ -41,10 +42,10 @@ Inside of the `create_table` method `t` actually creates the name and email colu
 
 The `rails generate model User name:string email:string` command also creates the model file as well in `app/models/user.rb` You can see what was created
 
-```rb
+```ruby
 class User < ApplicationRecord
 end
 ```
 There isn't much here yet but you don't have any users yet. It does show you `class User < ApplicationRecord` which means in Ruby that the User model has all the operations as `ApplicationRecord`. That topic is outside of the scope of this blog post.
 
-I'll end it here at knowing what happens when a model in created in Rails. Thank you for reading. 😎
+I'll end it here at knowing what happens when a model in created in Rails. Thank you for reading. 

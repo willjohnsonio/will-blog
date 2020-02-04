@@ -1,0 +1,56 @@
+---
+slug: css-variables
+date: 2020-02-04
+title: Intro to CSS Variables 
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
+published: true
+banner: ./beaker.jpg
+author: 'Will Johnson'
+---
+
+
+In CSS you can use variables to store info information and reference it later in your app using the variable name. This make writing CSS a lot easier because it cuts down on to type the same things over and over, when you need to make changes in multiple places.
+
+## Declaring CSS variables
+
+You can declare a css variable inside of any CSS declration block `{}` type `--variable-name` as the property, then set the value. We'll use red.
+
+```css
+body {
+    --main-color: red;
+}
+```
+
+## Using CSS variables
+
+To use a CSS variable you need the `var()` function. Type `var(variable-name)` inside of the declaration block you want to use the variable on. 
+
+```css
+button {
+    color: var(--main-color)
+}
+```
+This is useful because now anywhere you need to change the ```main-color``` you change it once and it changes everywhere ```main-color``` is referenced. Without CSS variables you could have to go and change each red color manually. 😫
+
+## CSS Variable Scope
+
+The CSS selector that you add the variable to is available to all the children of that element. For example, a variable inside a `<div>` will be usuable by all the elements inside that `<div>`. 
+
+CSS variables are based on CSS specficity and the most specific selector used will be the one that shows in the browser.
+
+For example in this code:
+
+```css
+body {
+    --main-color: red;
+}
+
+header {
+    --main-color: blue;
+}
+```
+
+Any element that uses `main-color` outside of `header` will be red. Any element that uses `main-color` inside of `header` will be blue.
+
+Here is example here you can experiment with on [codepen](https://codepen.io/willjohnsonio/pen/yLNBYeE)
+
