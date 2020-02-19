@@ -1,5 +1,5 @@
 ---
-slug: css-variables
+slug: intro-css-variables
 date: 2020-02-04
 title: Intro to CSS Variables 
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
@@ -8,12 +8,11 @@ banner: ./beaker.jpg
 author: 'Will Johnson'
 ---
 
-
-In CSS you can use variables to store info information and reference it later in your app using the variable name. This make writing CSS a lot easier because it cuts down on to type the same things over and over, when you need to make changes in multiple places.
+In CSS you can use variables to store information and reference it later in your app using the variable name. This make writing CSS a lot easier, because it cuts down on having to type the same things over and over when you need to make changes in multiple places.
 
 ## Declaring CSS variables
 
-You can declare a css variable inside of any CSS declration block `{}` type `--variable-name` as the property, then set the value. We'll use red.
+You can declare a css variable inside of any CSS declaration block `{}` type `--variable-name` as the property, then set the value. We'll use red.
 
 ```css
 body {
@@ -30,13 +29,14 @@ button {
     color: var(--main-color)
 }
 ```
-This is useful because now anywhere you need to change the ```main-color``` you change it once and it changes everywhere ```main-color``` is referenced. Without CSS variables you could have to go and change each red color manually. 😫
+
+This is useful because now anywhere you need to change the `main-color` you change it once and it changes everywhere `main-color` is referenced. Without CSS variables you would have to go and change each red color manually. 😫
 
 ## CSS Variable Scope
 
-The CSS selector that you add the variable to is available to all the children of that element. For example, a variable inside a `<div>` will be usuable by all the elements inside that `<div>`. 
+The CSS selector that you add the variable on, is available to all the children of that element. For example, a variable inside a `<div>` will be useuable by all the elements inside that `<div>`. 
 
-CSS variables are based on CSS specficity and the most specific selector used will be the one that shows in the browser.
+CSS variables are based on CSS specificity and the most specific selector used will be the one that shows in the browser.
 
 For example in this code:
 
