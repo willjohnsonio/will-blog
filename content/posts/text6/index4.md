@@ -8,11 +8,11 @@ banner: ''
 author: 'Will Johnson'
 ---
 
-Embedded Ruby aka ERb. is a templating system that shows dynamic content on your website.
+Embedded Ruby aka ERb. is a templating system that Ruby on Rails uses to show dynamic content on your website.
 
 ERb files end in a .html.erb or .erb file type. You can write HTML and plain Ruby inside of ERb files.
 
-In order to use ruby you have to place your Ruby code inside this tag.
+In order to use Ruby you have to place your Ruby code inside this tag.
 
 ```html
 <%= %>
