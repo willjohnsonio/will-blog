@@ -1,6 +1,6 @@
 ---
 slug: what-is-embedded-ruby
-date: 2020-02-20
+date: 2020-02-22
 title: What Is Embedded Ruby?
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
 published: true
