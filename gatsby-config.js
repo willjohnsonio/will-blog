@@ -32,7 +32,21 @@ module.exports = {
     {
       resolve: `@eggheadio/gatsby-theme-egghead-blog`,
       options: {contentBlog: 'content/posts'},
-    },  {
+    }, 
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolver: `gatsby-remark-ruby`,
+            options: {
+              parenthesis: '()',
+            },
+          },
+        ],
+      },
+    },
+     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
