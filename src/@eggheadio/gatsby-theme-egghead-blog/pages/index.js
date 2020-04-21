@@ -7,7 +7,6 @@ import Link from '@eggheadio/gatsby-theme-egghead-blog/src/components/Link'
 import { useTheme } from '@eggheadio/gatsby-theme-egghead-blog/src/components/Theming'
 import Container from '@eggheadio/gatsby-theme-egghead-blog/src/components/Container'
 import { rhythm } from '@eggheadio/gatsby-theme-egghead-blog/src/lib/typography'
-import getSharingImage from '@jlengstorf/get-share-image'
 
 
 const Hero = () => {
