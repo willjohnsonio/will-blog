@@ -17,7 +17,5 @@
   "scripts": {
     "build": "gatsby build"
   },
-  "devDependencies": {
-    "gatsby-remark-ruby": "^0.1.0"
-  }
+  "devDependencies": {}
 }

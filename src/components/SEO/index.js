@@ -57,6 +57,9 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         taglineFont: 'Roboto',
       })
 
+      const image = isBlogPost ? socialImage : seo.image
+      console.log(image, 'hi image')
+
       return (
         <React.Fragment>
           <Helmet>
@@ -78,7 +81,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
             <meta name="twitter:creator" content={seo.social.twitter} />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={socialImage} />
+            <meta name="twitter:image" content={image} />
           </Helmet>
           <SchemaOrg
             isBlogPost={isBlogPost}
