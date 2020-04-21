@@ -43,8 +43,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
 
       const socialImage = getSharingImage({
         title,
-        tagline,
-        // This is the name you see in your url
+       // This is the name you see in your url
         // https://res.cloudinary.com/<Your cloud name will be here>/image/upload/v1579118925/jp-blog-post-card.png
         cloudName: 'dqao0voyr',
         imagePublicID: 'twitter-img',
