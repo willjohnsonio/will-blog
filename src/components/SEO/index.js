@@ -7,7 +7,6 @@ import SchemaOrg from './SchemaOrg'
 import config from '../../../config/website'
 import getSharingImage from '@jlengstorf/get-share-image'
 
-
 const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
   <StaticQuery
     query={graphql`

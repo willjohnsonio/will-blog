@@ -27,6 +27,10 @@ module.exports = {
       url: config.siteUrl,
       logo: config.siteLogo,
     },
+    social: {
+      twitter: config.twitterHandle,
+      fbAppID: '',
+    },
   },
   plugins: [
     
