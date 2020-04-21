@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import SchemaOrg from './SchemaOrg'
-import config from '../../../config/website'
 import getSharingImage from '@jlengstorf/get-share-image'
+
 
 const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
   <StaticQuery
@@ -17,6 +17,8 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
             description
             canonicalUrl
             image
+            twitterUrl
+            fbAppID
             author {
               name
             }
@@ -25,10 +27,6 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
               url
               logo
             }
-            social {
-              twitter
-              fbAppID
-            }
           }
         }
       }
@@ -36,7 +34,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
     render={({ site: { siteMetadata: seo } }) => {
       const postMeta =
         frontmatter || postData.childMarkdownRemark.frontmatter || {}
-      const title = isBlogPost ? postMeta.title : config.siteTitle
+      const title = isBlogPost ? postMeta.title : seo.siteTitle
       const description = postMeta.description || seo.description
       const image = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image
       const url = postMeta.slug
@@ -45,8 +43,8 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
       const datePublished = isBlogPost ? postMeta.datePublished : false
 
       const socialImage = getSharingImage({
-        title,
-        tagline,
+        title: 'How to be a x developer',
+        tagline: 'Learn all the tips from this one post',
         // This is the name you see in your url
         // https://res.cloudinary.com/<Your cloud name will be here>/image/upload/v1579118925/jp-blog-post-card.png
         cloudName: 'dqao0voyr',
@@ -55,9 +53,6 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         titleExtraConfig: '_bold',
         taglineFont: 'Roboto',
       })
-
-      const image = isBlogPost ? socialImage : seo.image
-      console.log(image, 'hi image')
 
       return (
         <React.Fragment>
@@ -73,11 +68,11 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image} />
-            <meta property="fb:app_id" content={seo.social.fbAppID} />
+            <meta property="fb:app_id" content={seo.fbAppID} />
 
             {/* Twitter Card tags */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content={seo.social.twitter} />
+            <meta name="twitter:creator" content={seo.twitterUrl} />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={image} />
