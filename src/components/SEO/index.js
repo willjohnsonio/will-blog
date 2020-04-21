@@ -36,7 +36,6 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         frontmatter || postData.childMarkdownRemark.frontmatter || {}
       const title = isBlogPost ? postMeta.title : seo.siteTitle
       const description = postMeta.description || seo.description
-      const image = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image
       const url = postMeta.slug
         ? `${seo.canonicalUrl}${path.sep}${postMeta.slug}`
         : seo.canonicalUrl
@@ -53,6 +52,9 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         titleExtraConfig: '_bold',
         taglineFont: 'Roboto',
       })
+
+      const image = isBlogPost ? socialImage : seo.image
+      console.log(image, 'hi image')
 
       return (
         <React.Fragment>
