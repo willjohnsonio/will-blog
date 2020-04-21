@@ -29,6 +29,7 @@ module.exports = {
     },
   },
   plugins: [
+    
     {
       resolve: `@eggheadio/gatsby-theme-egghead-blog`,
       options: {contentBlog: 'content/posts'},
@@ -36,6 +37,7 @@ module.exports = {
      {
       resolve: `gatsby-transformer-remark`,
       options: {
+        
         plugins: [
           {
             resolve: `gatsby-remark-prismjs`,
@@ -75,6 +77,8 @@ module.exports = {
         ],
       },
     }
+
+
   
     // {
     //   resolve: 'gatsby-plugin-manifest',
