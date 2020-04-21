@@ -43,8 +43,8 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
       const datePublished = isBlogPost ? postMeta.datePublished : false
 
       const socialImage = getSharingImage({
-        title: 'How to be a x developer',
-        tagline: 'Learn all the tips from this one post',
+        title,
+        tagline,
         // This is the name you see in your url
         // https://res.cloudinary.com/<Your cloud name will be here>/image/upload/v1579118925/jp-blog-post-card.png
         cloudName: 'dqao0voyr',
