@@ -47,10 +47,11 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         // This is the name you see in your url
         // https://res.cloudinary.com/<Your cloud name will be here>/image/upload/v1579118925/jp-blog-post-card.png
         cloudName: 'dqao0voyr',
-        imagePublicID: 'v1587457384/twitter-img',
+        imagePublicID: 'twitter-img',
         titleFont: 'Roboto',
         titleExtraConfig: '_bold',
         taglineFont: 'Roboto',
+        textColor: 'ffffff',
       })
 
       const image = isBlogPost ? socialImage : seo.image

@@ -26,6 +26,4 @@ module.exports = {
     githubUrl: 'https://twitter.com/willjohnsonio/',
     githubHandle: 'willjohnsonio',
     fbAppID: '',
-    cloudinaryCloudName: 'dqao0voyr',
-    cloudinaryImagePublicID: 'v1587457384/twitter-img',
   }
