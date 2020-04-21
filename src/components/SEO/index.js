@@ -47,7 +47,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
         // This is the name you see in your url
         // https://res.cloudinary.com/<Your cloud name will be here>/image/upload/v1579118925/jp-blog-post-card.png
         cloudName: 'dqao0voyr',
-        imagePublicID: 'twitter-img',
+        imagePublicID: 'twitter-img.jpg',
         titleFont: 'Roboto',
         titleExtraConfig: '_bold',
         taglineFont: 'Roboto',
