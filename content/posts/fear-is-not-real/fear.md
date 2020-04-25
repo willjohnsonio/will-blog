@@ -20,4 +20,4 @@ I know that was deep but I can say it's true sometimes we're scared to write a b
 
 I want to lean into fear more and more as I live more heck I was "scared" because it wasnt't tech related. There are many things I have backed down from doing because of fear(selling an ebook, creating video courese, starting a business, etc). I know that the fear I'm feeling isn't real it's just a choice I'm making either consciously or subconsciously. I also know in my heart if I go for the things that scared I will feel bliss from being able to people, create comfort for my family, and no longer feel that fear in the back of my head no more what ifs? That in itself is pure bliss, knowing you gave you all.
 
-What's something that you have feared that you're going to do?
+What's something that fear has held you back from?
