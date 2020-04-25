@@ -1,5 +1,5 @@
 ---
-slug: fear-is-not-rea;
+slug: fear-is-not-real
 date: 2020-04-25
 title: Fear Is Not Real
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
@@ -8,7 +8,7 @@ banner: ''
 author: 'Will Johnson'
 ---
 
-"Fear is not real. The only place that fear can exist is in our thoughts of the future. It is a product of our imagination, causing us to fear things that do not at present and may not ever exist. That is near insanity. Do not misunderstand me, danger is very real, but fear is a choice." - Will Smith (After Earth).
+*"Fear is not real. The only place that fear can exist is in our thoughts of the future. It is a product of our imagination, causing us to fear things that do not at present and may not ever exist. That is near insanity. Do not misunderstand me, danger is very real, but fear is a choice." - Will Smith (After Earth)*
 
 While after Earth was not that quote alone has stuck with me for years. I don't think I will ever forget it. Everytime I get "scared" this qoute pops in my head every time getting stronger and louder. Think about every time I say "I want to start a business, write a book, speak at conference, etc" I "feel" fear but why? Why am I afraid of something that hasn't ever happen yet?
 
