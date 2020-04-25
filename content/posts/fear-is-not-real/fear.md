@@ -4,7 +4,7 @@ date: 2020-04-25
 title: Fear Is Not Real
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
 published: true
-banner: ''
+banner: 
 author: 'Will Johnson'
 ---
 
