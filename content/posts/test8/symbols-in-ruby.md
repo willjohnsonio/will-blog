@@ -4,7 +4,6 @@ date: 2020-03-20
 title: What Are Symbols in Ruby on Rails?
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
 published: true
-banner: ''
 author: 'Will Johnson'
 ---
 

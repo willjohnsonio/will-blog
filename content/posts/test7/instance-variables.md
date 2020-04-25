@@ -4,7 +4,6 @@ date: 2020-03-01
 title: What Are Instance Variables in Ruby on Rails?
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
 published: true
-banner: ''
 author: 'Will Johnson'
 ---
 
